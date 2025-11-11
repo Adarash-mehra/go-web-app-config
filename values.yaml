@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: adarash08/my-go-app
+  pullPolicy: IfNotPresent
+  tag: "latest" 
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 8080
+  nodePort: 30001

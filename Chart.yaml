@@ -1,0 +1,4 @@
+apiVersion: v2
+name: go-web-app
+description: A Helm chart for my Go web app
+version: 0.1.0

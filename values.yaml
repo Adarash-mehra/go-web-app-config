@@ -2,7 +2,7 @@ replicaCount: 2
 image:
   repository: adarash08/my-go-app
   pullPolicy: IfNotPresent
-  tag: "9b0d903"
+  tag: "null"
 service:
   type: NodePort
   port: 80
